@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Main container */
+  div {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Textarea */
+  textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Button */
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error message */
+  p {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Dropdowns */
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  
+  select:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Response Section */
+  h3 {
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  h4 {
+    color: #2980b9;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  /* File download section */
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container for the response data */
+  .response-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  /* General spacing */
+  .margin-top {
+    margin-top: 20px;
+  }
+  
+  .margin-bottom {
+    margin-bottom: 20px;
+  }
+  
